@@ -1,0 +1,85 @@
+:root {
+    --backgroung : hsl(217, 54%, 11%);
+    --coin-color: hsl(178, 100%, 50%);
+    --text-color: hsl(215, 51%, 70%);
+    --card-color: hsl(216, 50%, 16%); 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section {
+    width: 280px;
+    margin: auto;
+}
+.top-header img{
+    width: 100%;
+    border-radius: 8px;
+}
+body {
+    background-color: var(--backgroung);
+    font-family: 'Outfit', sans-serif;
+}
+.card-content {
+    padding: 20px;
+    background-color: var(--card-color);
+    border-radius: 15px;
+}
+h1 {
+    color: white;
+    margin: 20px 0;
+    font-size: 1.3rem;
+}
+header p, .threedayleft, span {
+    color: var(--text-color);
+    
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+header p, .flex p, footer p {
+    font-size: 0.9rem;
+}
+
+.eth {
+    color: var(--coin-color);
+}
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.creative-photo {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+.creative-photo img{
+    width: 100%;
+    padding: 1px;
+    
+}
+footer {
+    margin:  20px 0 0 0;
+}
+.flex3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+footer p {
+    color: white;
+}
